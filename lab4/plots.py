@@ -28,6 +28,7 @@ TITLES = {
     "greedy_edges_random": "Greedy LS, edges exchange, random start",
     "greedy_edges_greedy": "Greedy LS, edges exchange, greedy start",
     "candidate_edges_random": "Steepest LS, candidate moves (K=10), random start",
+    "candidate_edges_greedy": "Steepest LS, candidate moves (K=10), greedy start",
 }
 
 

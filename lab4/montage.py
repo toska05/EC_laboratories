@@ -20,8 +20,9 @@ GROUPS = [
       "steepest_edges_random", "steepest_edges_greedy",
       "greedy_nodes_random", "greedy_nodes_greedy",
       "greedy_edges_random", "greedy_edges_greedy"]),
-    ("candidate", "Steepest LS with random start: baseline vs candidate moves (lab 4)",
-     ["steepest_edges_random", "candidate_edges_random"]),
+    ("candidate", "Steepest LS: baseline vs candidate moves (lab 4)",
+     ["steepest_edges_random", "candidate_edges_random",
+      "steepest_edges_greedy", "candidate_edges_greedy"]),
 ]
 
 COLS = 2

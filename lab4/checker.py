@@ -17,7 +17,7 @@ METHODS = [
     "steepest_edges_random", "steepest_edges_greedy",
     "greedy_nodes_random", "greedy_nodes_greedy",
     "greedy_edges_random", "greedy_edges_greedy",
-    "candidate_edges_random",
+    "candidate_edges_random", "candidate_edges_greedy",
 ]
 DATA_DIR = "../data"
 RESULTS_DIR = "results"

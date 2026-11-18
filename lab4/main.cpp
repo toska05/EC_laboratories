@@ -557,6 +557,7 @@ int main(int argc, char* argv[]) {
         {"greedy_edges_random", 1, true, false, 0, 0, false, false, true},
         {"greedy_edges_greedy", 1, true, true, 0, 0, false, false, true},
         {"candidate_edges_random", 2, true, false, 10, 10, false, true, true},  // lab 4 main method
+        {"candidate_edges_greedy", 2, true, true, 10, 10, false, true, true},   // same, greedy start
         // selection of the candidate lists (only in the parameter table)
         {"candidate_k5", 2, true, false, 5, 5, false, true, false},
         {"candidate_k8", 2, true, false, 8, 8, false, true, false},
